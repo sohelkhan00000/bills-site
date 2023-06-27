@@ -8,7 +8,7 @@ var jsLoad = (filePath, deferType, ele, CB) => {
         }
     })
 
-    if (!isExist) {
+    if (false) {
         const script = document.createElement('script');
         script.src = filePath;
         script.defer = deferType;
@@ -35,7 +35,7 @@ var cssLoad = (filePath, ele, CB) => {
             return false;
         }
     })
-
+debugger;
     if (!isExist) {
         const link = document.createElement('link');
         link.href = filePath;
@@ -81,9 +81,9 @@ var lAll = ()=>{
                     if (server.serverPage == "/fuel-bills") {
                         cssLoad(server.serverPath + '/assets/style/fuel-receipt' + server.serverStyle, 'head', (sucS, msgS) => {
                             if (sucS) {
-                                // REle(server.serverPath + '/assets/style/fuel-receipt-critical' + server.serverStyle, 'link', (sucT, msgT) => {
-                                //     //console.log('Critical css ' + msgT);
-                                // });
+                                REle(server.serverPath + '/assets/style/fuel-receipt-critical' + server.serverStyle, 'link', (sucT, msgT) => {
+                                    //console.log('Critical css ' + msgT);
+                                });
                             }
                         });
                     }
@@ -91,9 +91,9 @@ var lAll = ()=>{
                     {
                         cssLoad(server.serverPath + '/assets/style/generate-receipt' + server.serverStyle, 'head', (sucS, msgS) => {
                             if (sucS) {
-                                // REle(server.serverPath + '/assets/style/main-critical' + server.serverStyle, 'link', (sucT, msgT) => {
-                                //     //console.log('Critical css ' + msgT);
-                                // });
+                                REle(server.serverPath + '/assets/style/main-critical' + server.serverStyle, 'link', (sucT, msgT) => {
+                                    //console.log('Critical css ' + msgT);
+                                });
                             }
                         });
                     }

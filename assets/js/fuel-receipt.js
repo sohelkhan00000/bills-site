@@ -1,31 +1,35 @@
+var fuelBills = ()=>{
+
+
+
 class formControls {
    
     constructor()
     {
-        this['template-1'] = document.getElementById('template-1');
-        this['template-2'] = document.getElementById('template-2');
-        this['templates'] = document.querySelectorAll("[name='templates']");
-        this['fs-logo'] = document.querySelectorAll("[name='fs-logo']");
-        this['download-pdf'] = document.getElementById("download-pdf");
-        this['form-control'] = document.querySelectorAll('.form-control');
-        this['fs-date'] = document.getElementById('fs-date');
-        this['fs-time'] = document.getElementById('fs-time');
-        this['vat-none'] = document.getElementById('vat-none');
-        this['vat-type'] = document.querySelectorAll("[name='vat-type']");
-        this['vat-number'] = document.getElementById("vat-number");
-        this['fs-station-name'] = document.getElementById("fs-station-name");
-        this['fs-address'] = document.getElementById("fs-address");
-        this['fs-fuel-rate'] = document.getElementById("fs-fuel-rate");
-        this['fs-amount'] = document.getElementById("fs-amount");
-        this['u-name'] = document.getElementById("u-name");
-        this['u-vechicle-number'] = document.getElementById("u-vechicle-number");
-        this['u-vehicle-type'] = document.getElementById("u-vehicle-type");
-        this['u-payment-type'] = document.getElementById("u-payment-type");
-        this['fs-receipt-number'] = document.getElementById("fs-receipt-number");
-        this['spinner-grow'] = document.querySelector(".spinner-grow");
-        this['download-text'] = document.querySelector(".download-text");
-        this['select-template'] = document.querySelector(".select-template");
-        this['bill-container'] = document.querySelectorAll(".bill-container");
+        this['template-1'] = document.querySelector('app-fuel-bill-main #template-1');
+        this['template-2'] = document.querySelector('app-fuel-bill-main #template-2');
+        this['templates'] = document.querySelectorAll("app-fuel-bill-main [name='templates']");
+        this['fs-logo'] = document.querySelectorAll("app-fuel-bill-main [name='fs-logo']");
+        this['download-fuel-bills'] = document.querySelector("app-fuel-bill-main #download-fuel-bills");
+        this['form-control'] = document.querySelectorAll('app-fuel-bill-main .form-control');
+        this['fs-date'] = document.querySelector('app-fuel-bill-main #fs-date');
+        this['fs-time'] = document.querySelector('app-fuel-bill-main #fs-time');
+        this['vat-none'] = document.querySelector('app-fuel-bill-main #vat-none');
+        this['vat-type'] = document.querySelectorAll("app-fuel-bill-main app-fuel-bill-main [name='vat-type']");
+        this['vat-number'] = document.querySelector("app-fuel-bill-main #vat-number");
+        this['fs-station-name'] = document.querySelector("app-fuel-bill-main #fs-station-name");
+        this['fs-address'] = document.querySelector("app-fuel-bill-main #fs-address");
+        this['fs-fuel-rate'] = document.querySelector("app-fuel-bill-main #fs-fuel-rate");
+        this['fs-amount'] = document.querySelector("app-fuel-bill-main #fs-amount");
+        this['u-name'] = document.querySelector("app-fuel-bill-main #u-name");
+        this['u-vechicle-number'] = document.querySelector("app-fuel-bill-main #u-vechicle-number");
+        this['u-vehicle-type'] = document.querySelector("app-fuel-bill-main #u-vehicle-type");
+        this['u-payment-type'] = document.querySelector("app-fuel-bill-main #u-payment-type");
+        this['fs-receipt-number'] = document.querySelector("app-fuel-bill-main #fs-receipt-number");
+        this['spinner-grow'] = document.querySelector("app-fuel-bill-main .spinner-grow");
+        this['download-text'] = document.querySelector("app-fuel-bill-main .download-text");
+        this['select-template'] = document.querySelector("app-fuel-bill-main .select-template");
+        this['bill-container'] = document.querySelectorAll("app-fuel-bill-main .bill-container");
     }
 }
 
@@ -374,7 +378,7 @@ var partialLoad = (callback) => {
     
 }
 
-objFormControls["download-pdf"].addEventListener("click", () => {
+objFormControls["download-fuel-bills"].addEventListener("click", () => {
     addDynamicData((suc, msg) => {
         
         if (suc) {
@@ -412,4 +416,5 @@ objFormControls["download-pdf"].addEventListener("click", () => {
     })
 });
 
-
+//alert("fuel receipt")
+}
