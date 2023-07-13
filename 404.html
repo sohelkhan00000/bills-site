@@ -11,22 +11,10 @@
   <meta charset='UTF-8' />
   <meta http-equiv='X-UA-Compatible' content='IE=edge' />
   <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-
-  <!-- <link type='text/css' href='../assets/plugins/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css'
-      rel="stylesheet" /> -->
-  <!-- <link href="http://127.0.0.1:5500/assets/style/main.css" rel="stylesheet" /> -->
-  <!-- <link href="http://127.0.0.1:4200/assets/style/main-critical.css" rel="stylesheet" /> -->
-
-
-  <!-- <link href="https://sohelkhan00000.github.io/bills/assets/style/main-critical.css" rel="stylesheet"  type='text/css' /> -->
   <link href="./assets/style/main-critical.css" rel="stylesheet" type='text/css' />
-  <!-- <link href="https://cdn.jsdelivr.net/gh/sohelkhan00000/cdn-generate-reciept@b4beab9/assets/style/main.css" rel="stylesheet" /> -->
-  <!-- <link href='https://cdn.jsdelivr.net/gh/sohelkhan00000/cdn-generate-reciept@16c4640/assets/style/generate-receipt.css' rel='stylesheet' type='text/css'/> -->
+
   <script>
-    /*ENV file*/
 
-
-    //let hostName = '127.0.0.1'
 
     let server = {
       serverType: "localhost",
@@ -45,9 +33,9 @@
 
     if (hostName == 'localhost:4200' || hostName == '') {
       server.serverPath = 'http://' + window.location.host;
-     
+
     }
-    else if (hostName == 'https://bills.likesyou.org') {
+    else if (hostName == 'bills.likesyou.org') {
       server.serverType = "UAT";
       server.serverPath = 'https://' + window.location.host;
       server.siteEmail = "info@freeforbills.lovestoblog.com"
@@ -55,16 +43,16 @@
     else {
       server.serverType = "Prod";
       server.serverPath = 'https://' + window.location.host;
-      
+
     }
   </script>
 </head>
 
 <body>
 
-  <app-root></app-root> 
+  <app-root></app-root>
 
 
-<script src="runtime-es2015.486f9a2df25350dbd98f.js" type="module"></script><script src="runtime-es5.486f9a2df25350dbd98f.js" nomodule defer></script><script src="polyfills-es5.cd31f624d4136c8e4ecb.js" nomodule defer></script><script src="polyfills-es2015.ed71c9eabc48e97807bc.js" type="module"></script><script src="vendor-es2015.3dc444574090864ffdf7.js" type="module"></script><script src="vendor-es5.3dc444574090864ffdf7.js" nomodule defer></script><script src="main-es2015.7a48377d4b09cff65f87.js" type="module"></script><script src="main-es5.7a48377d4b09cff65f87.js" nomodule defer></script></body>
+<script src="runtime-es2015.b15a8006980669ea68b2.js" type="module"></script><script src="runtime-es5.b15a8006980669ea68b2.js" nomodule defer></script><script src="polyfills-es5.cd31f624d4136c8e4ecb.js" nomodule defer></script><script src="polyfills-es2015.ed71c9eabc48e97807bc.js" type="module"></script><script src="vendor-es2015.3dc444574090864ffdf7.js" type="module"></script><script src="vendor-es5.3dc444574090864ffdf7.js" nomodule defer></script><script src="main-es2015.82814682fdd85d020d35.js" type="module"></script><script src="main-es5.82814682fdd85d020d35.js" nomodule defer></script></body>
 
 </html>
