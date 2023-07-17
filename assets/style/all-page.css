@@ -1,4 +1,1 @@
-#comments, #blog-pager, .blog-feeds, .post-footer,.date-header, .post-feeds
-{
-    display: none;
-}
+#blog-pager,#comments,.blog-feeds,.date-header,.post-feeds,.post-footer{display:none}
