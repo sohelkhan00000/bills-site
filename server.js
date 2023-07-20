@@ -1,7 +1,17 @@
 
 const fs = require('fs');
 
-var routes = ['404.html','rent-receipt.html','fuel-bills.html','about.html','contact.html','cookie.html','privacy.html','services.html'];
+var routes = [
+    '404.html',
+'rent-receipt.html',
+'fuel-bills.html',
+'about.html',
+'contact.html',
+'services.html',
+'cookie.html',
+'privacy.html',
+'terms.html',
+'disclaimer.html'];
 
 // Copying the file to a the same name
 routes.forEach((value,i,arr) =>{
