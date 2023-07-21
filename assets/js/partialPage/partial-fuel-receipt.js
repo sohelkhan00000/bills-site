@@ -1,8 +1,8 @@
 var template ={
     "code" : `    <div class="bill">
-    <img data-tm="fs-logo"  class="fs-logo" src="https://sohelkhan00000.github.io/cdn-generate-reciept/assets/images/bill/pump-logo-bharat-petroleum.webp" />
-    <img class="side-logo1" src="https://sohelkhan00000.github.io/cdn-generate-reciept/assets/images/bill/side-logo.webp" />
-    <img class="side-logo2" src="https://sohelkhan00000.github.io/cdn-generate-reciept/assets/images/bill/side-logo.webp" />
+    <img data-tm="fs-logo"  class="fs-logo" src="${server.serverPath}/assets/images/bill/pump-logo-bharat-petroleum.webp" />
+    <img class="side-logo1" src="${server.serverPath}/assets/images/bill/side-logo.webp" />
+    <img class="side-logo2" src="${server.serverPath}/assets/images/bill/side-logo.webp" />
     <p class="welcome">WELCOME!!! </p>
     <p class="pump-name-para"><span data-tm="fs-station-name" class="fs-station-name"></span> <span data-tm="fs-address" class="fs-address"></span></p>
     <p data-tm="vat-none" class="vat-none d-none"><span class="vat-type">CST NUMBER: </span><span data-tm="vat-number" class="vat-number"></span></p>
