@@ -2,24 +2,21 @@
 <html lang="en">
 
 <head>
-
-
-  <title>Free rent receipts</title>
+  <title></title>
   <meta name='keywords' content='' />
   <meta name='description' content='' />
-  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="./favicon.ico">
   <base href="/">
   <meta charset='UTF-8' />
   <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
   <meta name='viewport' content='width=device-width, initial-scale=1.0' />
   <link href="./assets/style/main-critical.css" rel="stylesheet" type='text/css' />
 
   <script>
-
-
     let server = {
-      serverType: "localhost",
-      serverPath: 'localhost:4200',
+      serverType: "Prod",
+      serverPath: 'https://freeforonline.com',
       cdnVersion: null,
       serverStyle: '.css',
       serverScript: '.js',
@@ -28,30 +25,13 @@
       siteEmail: "info@freeforonline.com",
       sitePhone: "+91 9012507786",
       siteAddress: "T32 Sector 22, Noida UP, India",
-      siteBlog : "https://codecoca.blogspot.com"
-
-
-    }
-
-    let hostName = window.location.host
-
-    if (hostName == 'localhost:4200' || hostName == '') {
-      server.serverPath = 'http://' + window.location.host;
+      siteBlog: "https://codecoca.blogspot.com",
+      cssPath: 'https://freeforonline.com//assets/style',
+      jsPath: 'https://freeforonline.com//assets/js',
+      imagePath: 'https://freeforonline.com//assets/images',
+      pdfName: '[freeforonline_com]'
 
     }
-    else if (hostName == 'bills.likesyou.org') {
-      server.serverType = "UAT";
-      server.serverPath = 'https://' + window.location.host;
-      server.siteEmail = "info@freeforbills.lovestoblog.com";
-      server.siteName = 'Bills Generator';
-    }
-    else {
-      server.serverType = "Prod";
-      server.serverPath = 'https://' + window.location.host;
-      server.siteName = 'Free for Online';
-      server.siteBlog = "https://codecoca.blogspot.com"
-    }
-
   </script>
 
 </head>
@@ -61,6 +41,14 @@
   <app-root></app-root>
 
 
-<script src="runtime-es2015.f485dd05162b1ef401a5.js" type="module"></script><script src="runtime-es5.f485dd05162b1ef401a5.js" nomodule defer></script><script src="polyfills-es5.cd31f624d4136c8e4ecb.js" nomodule defer></script><script src="polyfills-es2015.ed71c9eabc48e97807bc.js" type="module"></script><script src="vendor-es2015.fb88a7c81c64f3bce346.js" type="module"></script><script src="vendor-es5.fb88a7c81c64f3bce346.js" nomodule defer></script><script src="main-es2015.e96f6c4c19ee9e6512f8.js" type="module"></script><script src="main-es5.e96f6c4c19ee9e6512f8.js" nomodule defer></script></body>
+  <script src="runtime-es2015.83f311cc1a8311295531.js" type="module"></script>
+  <script src="runtime-es5.83f311cc1a8311295531.js" nomodule defer></script>
+  <script src="polyfills-es5.cd31f624d4136c8e4ecb.js" nomodule defer></script>
+  <script src="polyfills-es2015.ed71c9eabc48e97807bc.js" type="module"></script>
+  <script src="vendor-es2015.b6a79e366f8fcd0fd256.js" type="module"></script>
+  <script src="vendor-es5.b6a79e366f8fcd0fd256.js" nomodule defer></script>
+  <script src="main-es2015.ad2dc48ec0c17e495c7c.js" type="module"></script>
+  <script src="main-es5.ad2dc48ec0c17e495c7c.js" nomodule defer></script>
+</body>
 
 </html>
