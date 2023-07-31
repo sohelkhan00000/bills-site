@@ -1,5 +1,5 @@
 var dsData ={
-    "template-2" : `<div data-tm="template-2" tabindex="0" class="templates template-2 ds-template-container d-none"><h4>comming soon</h4>
+    "template-2" : `<div data-tm="template-2" tabindex="0" class="templates template-2 ds-template-container d-none"><h4>coming soon</h4>
     </div>`,
     "ds-stamp":`<img alt="stamp" style="width: 60px;" class="ds-stamp "
     src="${server.imagePath}/driver-salary/revenu.webp" />`,
