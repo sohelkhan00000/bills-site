@@ -1,43 +1,14 @@
+const express = require('express');
+const path = require('path');
 
-const fs = require('fs');
-
-var routes = [
-    '404.html',
-    'rent-receipt.html',
-    'fuel-bills.html',
-    'about.html',
-    'contact.html',
-    'services.html',
-    'cookie.html',
-    'privacy.html',
-    'terms.html',
-    'disclaimer.html',
-    'driver-salary.html'
-];
-
-// Copying the file to a the same name
-routes.forEach((value, i, arr) => {
-    if (value == 'driver-salary.html') {
-        fs.copyFile("index.html", 'tools/' + value, (err) => {
-            if (err) {
-                console.log("Error Found:", err);
-            }
-            else {
-                console.log(value + "File created!")
-            }
-        });
-    }
-    else {
-        fs.copyFile("index.html", value, (err) => {
-            if (err) {
-                console.log("Error Found:", err);
-            }
-            else {
-                console.log(value + "File created!")
-            }
-        });
-    }
-
+const app = express();
+const port = process.env.PORT || 4000;
+app.use(express.static(__dirname))
+// sendFile will go here
+app.get('/', function(req, res) {
+  res.sendFile(path.join(__dirname, '/index.html'));
 });
 
-
+app.listen(port);
+console.log('Server started at http://localhost:' + port);
+module.exports = app;
