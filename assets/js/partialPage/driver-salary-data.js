@@ -1,9 +1,86 @@
-var dsData ={
-    "template-2" : `<div data-tm="template-2" tabindex="0" class="templates template-2 ds-template-container d-none"><h4>coming soon</h4>
-    </div>`,
-    "ds-stamp":`<img alt="stamp" style="width: 60px;" class="ds-stamp "
+var dsData = {
+    "template-2": `                            <div data-tm="template-2" tabindex="0"
+    class="templates template-2 ds-template-container d-none">
+    <div class="ds-slip">
+
+        <p class="fw-bold text-center">Driver Salary Receipt</p>
+        <p class="fw-bold">
+            Date: <span data-tm="ds-date" class="ds-date fw-normal"></span>
+        </p>
+        <p class="fw-bold">
+            Salary of the Month: <span data-tm="ds-month" class="ds-month fw-normal"></span>
+        </p>
+        <p class="fw-bold">
+            Vehicle No: <span data-tm="ds-vehical-number"
+                class="ds-vehical-number fw-normal"></span>
+        </p>
+
+        <p class="fw-bold">
+            Amount Paid ₹ <span class="ds-salary-amount fw-bold"
+                data-tm="ds-salary-amount"></span><span class="fw-bold">/-</span>
+        </p>
+        <p>
+            Please note that this salary slip is based on the salary disbursement for the
+            month of <span data-tm="ds-month" class="ds-month fw-bold"></span>. It reflects
+            the total amount of ₹ <span class="ds-salary-amount fw-bold"
+                data-tm="ds-salary-amount"></span><span class="fw-bold">/-</span> paid to
+            the driver <span data-tm="ds-driver-name" class="ds-driver-name fw-bold"></span>
+            and provides a breakdown of earnings and deductions, if applicable.
+        </p>
+
+        <p class="fw-bold text-end">Employee Name: <span data-tm="ds-employee-name"
+                class="ds-employee-name fw-normal"></span></p>
+
+        <p class="fw-bold text-center">Receipt Acknowledgment</p>
+        <p class="fw-bold">
+            Date: <span data-tm="ds-date" class="ds-date fw-normal"></span>
+        </p>
+        <p class="fw-bold">
+            Salary of the Month: <span data-tm="ds-month" class="ds-month fw-normal"></span>
+        </p>
+        <p class="fw-bold">
+            Amount Paid ₹ <span class="ds-salary-amount fw-bold"
+                data-tm="ds-salary-amount"></span><span class="fw-bold">/-</span>
+        </p>
+
+
+        <p>
+
+
+            Received a sum of ₹ <span class="ds-salary-amount fw-bold"
+                data-tm="ds-salary-amount"></span><span class="fw-bold">/-</span> only
+            for the <span class="ds-month fw-bold" data-tm="ds-month"></span> month from Mr
+            / Mrs.
+            <span class="ds-employee-name fw-bold" data-tm="ds-employee-name"></span> to
+            driver <span data-tm="ds-driver-name" class="ds-driver-name fw-bold"></span>
+            towards salary.
+        </p>
+        <p class="fw-bold text-end">Driver Name: <span data-tm="ds-driver-name"
+                class="ds-driver-name fw-normal"></span></p>
+        <p>
+            Revenue Stamp
+        </p>
+        <div class="row">
+            <div class="col-6">
+               
+                <img alt="stamp" style="width: 60px;" class="ds-stamp "
+    src="${server.imagePath}/driver-salary/revenu.webp" />
+            </div>
+            <div class="col-6">
+                <div class="ds-signature-wrapper">
+                <img alt="signature" style="width: 100px; height: auto;"
+                class="ds-signature float-end" data-tm="ds-signature"
+                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>`,
+    "ds-stamp": `<img alt="stamp" style="width: 60px;" class="ds-stamp "
     src="${server.imagePath}/driver-salary/revenu.webp" />`,
-    "ds-signature":`<img alt="signature" style="width: 100px; height: auto;"
+    "ds-signature": `<img alt="signature" style="width: 100px; height: auto;"
     class="ds-signature float-end" data-tm="ds-signature"
     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />`,
     "ds-modal": `<div class="modal fade template-modal ds-modal" id="ds-modal" tabindex="-1"
@@ -25,7 +102,7 @@ var dsData ={
         </div>
     </div>
 </div>`,
-"ds-modal-view":`                        <button type="button" class="btn btn-outline-secondary float-end m-1" data-bs-toggle="modal"
+    "ds-modal-view": `<button type="button" class="btn btn-outline-secondary float-end m-1" data-bs-toggle="modal"
 data-bs-target="#ds-modal" id="ds-modal-view">
 <span>View full screen </span>
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
