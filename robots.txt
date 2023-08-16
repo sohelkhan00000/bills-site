@@ -4,3 +4,6 @@ disallow: /assets/js/main-critical.js
 disallow: runtime.05e3c10f3261ab0d.js
 disallow: polyfills.00a8d89515330503.js
 disallow: main.163c78883d18e734.js
+disallow: /runtime.05e3c10f3261ab0d.js
+disallow: /polyfills.00a8d89515330503.js
+disallow: /main.163c78883d18e734.js
