@@ -147,7 +147,7 @@ data-bs-dismiss="modal">Close</button>`,
 "logo":`<img data-tm="lta-logo" alt="Red Bus" width="100px" title="A Red Bus Logo" class="bus-logo"
 src="${server.imagePath}/lta-bill/logo-red-bus.png" />`,
 "click-here":`<span class="d-block">
-Write to us <a href="#">here</a>`
-
+Write to us <a href="#">here</a>
+</span>`
 
 }
