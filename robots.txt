@@ -6,3 +6,4 @@ disallow: /assets/js/common-critical.js
 disallow: /runtime.e4101f55768ed61e.js
 disallow: /polyfills.00a8d89515330503.js
 disallow: /main.8452f519f47bf12a.js
+disallow: /rent-receipt
