@@ -142,12 +142,25 @@ data-bs-target="#lta-bill-modal" id="lta-bill-modal-view">
   </svg>
 
 </button>`,
-"close-modal":`  <button type="button" class="btn btn-success"
-data-bs-dismiss="modal">Close</button>`,
+"close-modal":``,
 "logo":`<img data-tm="lta-logo" alt="Red Bus" width="100px" title="A Red Bus Logo" class="bus-logo"
 src="${server.imagePath}/lta-bill/logo-red-bus.png" />`,
 "click-here":`<span class="d-block">
 Write to us <a href="#">here</a>
-</span>`
+</span>`,
+'lta-modal':`  <div class="modal fade template-modal lta-bill-modal"  id="lta-bill-modal" tabindex="-1" aria-labelledby="lta-bill-modal-view">
+<div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+
+        <div class="modal-body">
+
+        </div>
+        <div class="modal-footer d-block text-end bg-body">
+        <button type="button" class="btn btn-success"
+        data-bs-dismiss="modal">Close</button>
+        </div>
+    </div>
+</div>
+</div>`
 
 }

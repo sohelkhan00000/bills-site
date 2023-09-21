@@ -95,7 +95,7 @@ var dsData = {
             <div class="modal-body">
 
             </div>
-            <div class="modal-footer d-block d-md-none text-end bg-body">
+            <div class="modal-footer d-block text-end bg-body">
                 <button type="button" class="btn btn-success"
                     data-bs-dismiss="modal">Close</button>
             </div>
