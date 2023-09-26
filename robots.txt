@@ -3,7 +3,7 @@ disallow: /assets/*
 disallow: /assets/style/main-critical.css
 disallow: /assets/js/main-critical.js
 disallow: /assets/js/common-critical.js
-disallow: /runtime.84548e3169ad08c6.js
+disallow: /runtime.3ed7bbcda7523c2d.js
 disallow: /polyfills.00a8d89515330503.js
-disallow: /main.4ea1ade0a418f7d9.js
+disallow: /main.9b1b96a68d097d33.js
 disallow: /rent-receipt
