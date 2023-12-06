@@ -5,7 +5,7 @@ var rentReceiptData = {
         background-repeat: no-repeat;
         background-position: right;
     }`,
-    "template-1":`<div data-tm="template-1" tabindex="0"
+    "template-1":`     <div data-tm="template-1" tabindex="0"
     class="templates template-1 rentr-template-container shadow">
 
     <div class="receipt-wrapper">
