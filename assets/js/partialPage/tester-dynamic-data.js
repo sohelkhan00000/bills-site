@@ -1,7 +1,14 @@
 var testerDynamicData = {
     "template-2": `<div data-tm="template-2" tabindex="0" class="templates template-2 tester-container d-none shadow"><div class="tester-slip">
                                     
+    <div ffo-tmcomp="tester-items">
+    <div class="item-1">
+        <p>Item Name : <span data-tm="item-name"></span></p>
+        <br />
+        <p>Price : <span data-tm="item-price"></span></p>
+    </div>
 
+</div>
     <p class="fw-bold text-center">Driver Salary Receipt 2</p>
     <p>
         This is to certify that I have paid ₹ <span class="tester-salary-amount"
