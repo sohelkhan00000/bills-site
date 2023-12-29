@@ -285,7 +285,7 @@ var restaurantBillData = {
     <input class="form-control" id="bill-date" data-fm="bill-date" type="date" />
 </div>
 <div class="col-12 col-md-6 mt-3">
-    <label for="bill-time" class="form-label">Bill time</label>
+    <label for="bill-time" class="form-label">Bill Time</label>
     <input id="bill-time" data-fm="bill-time" type="time" class="form-control">
 </div>
 
