@@ -105,8 +105,16 @@ var restaurantBillData = {
         <div class="com-fm-body">
             <div class="row">
                 <div class="col-12">
+                    <div class="currency-box-wrap">
+                        <label for="search-currency" class="form-label">Search Currency</label>
+                        <input data-fm="search-currency" id="search-currency" type="text" class="form-control">
+                        <div class="search-currency-box d-none" data-fm="search-currency-box"></div>
+                    </div>
+                    
+                </div>
+                <div class="col-12 mt-3">
                     <label for="currency-value" class="form-label">Select Currency</label>
-                    <select data-fm="currency-value" id="currency-value" class="form-control">
+                    <select data-fm="currency-value" data-fm="currency-value" id="currency-value" class="form-select">
                         <option value="">currency</option>
                         <option value="AFN">Afghan Afghani - ؋</option>
                         <option value="ALL">Albanian Lek - Lek</option>
@@ -273,6 +281,19 @@ var restaurantBillData = {
                         <option value="YER">Yemeni Rial - ﷼</option>
                         <option value="ZMK">Zambian Kwacha - ZK</option>
                     </select>
+                </div>
+
+                <div class="col-12 col-md-4 mt-3">
+                    <div class="form-check">
+                        <input data-fm="currency-code" id="currency-code" name="currency-type" type="radio" class="form-check-input">
+                        <label for="currency-code" class="form-check-label">Code</label>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mt-3">
+                    <div class="form-check">
+                        <input checked id="currency-symbol" data-fm="currency-symbol" name="currency-type" type="radio" class="form-check-input">
+                        <label for="currency-symbol" class="form-check-label">Symbol</label>
+                    </div>
                 </div>
             </div>
         </div>
