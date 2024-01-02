@@ -71,5 +71,24 @@ globalData.appData = {
     <div class="su-container">
         <p id="su-open" href="">SUPPORT US</p>
     </div>
-</div>`
+</div>`,
+
+"ss":`     <div class="col-md-4">          <ul>
+<li>
+    <label for="sb-search" class="form-label">OUR SERVICES</label>
+</li>
+<li>
+    <a title="Rent Receipt" class="sidebar-links" href="/tools/rent-receipt">Rent Receipt</a>
+</li>
+<li>
+    <a title="Fuel Bills" class="sidebar-links" href="/fuel-bills">Fuel Bills</a>
+</li>
+<li>
+    <a title="Driver Salary Slip" class="sidebar-links" href="/tools/driver-salary">Driver
+        Salary Slip</a>
+</li>
+<li>
+    <a title="LTA Receipt" class="sidebar-links" href="/tools/lta/red-bus">LTA Receipt</a>
+</li>
+</ul></div>`
 }
