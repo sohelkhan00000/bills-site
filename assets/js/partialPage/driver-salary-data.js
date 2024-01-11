@@ -16,7 +16,7 @@ var dsData = {
         </p>
 
         <p class="fw-bold">
-            Amount Paid <span com-tm="currency" data-tm="currency"></span> <span class="ds-salary-amount fw-bold"
+            Amount Paid: <span com-tm="currency" data-tm="currency"></span> <span class="ds-salary-amount fw-bold"
                 data-tm="ds-salary-amount"></span><span class="fw-bold">/-</span>
         </p>
         <p>
@@ -39,7 +39,7 @@ var dsData = {
             Salary of the Month: <span data-tm="ds-month" class="ds-month fw-normal"></span>
         </p>
         <p class="fw-bold">
-            Amount Paid <span com-tm="currency" data-tm="currency"></span> <span class="ds-salary-amount fw-bold"
+            Amount Paid: <span com-tm="currency" data-tm="currency"></span> <span class="ds-salary-amount fw-bold"
                 data-tm="ds-salary-amount"></span><span class="fw-bold">/-</span>
         </p>
 
@@ -165,7 +165,7 @@ var dsData = {
 <p class="validation-message" data-error="ds-month"></p>
 </div>
 <div class="col-12 mt-3">
-<div com-fm="currency" class="com-wrapper close disable">
+<div com-fm="currency" class="com-wrapper disable">
     <div class="com-container">
         <div class="com-header">
             <div class="row">
