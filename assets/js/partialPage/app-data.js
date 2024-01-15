@@ -67,7 +67,7 @@ globalData.appData = {
     <button type="button" id="su-close" class="btn-close"></button>
     <img src="${server.imagePath}/qr-code-paytm.jpg">
 </div>
-<div id="su-wrapper" class="su-wrapper">
+<div id="su-wrapper" class="su-wrapper d-none">
     <div class="su-container">
         <p id="su-open" href="">SUPPORT US</p>
     </div>
