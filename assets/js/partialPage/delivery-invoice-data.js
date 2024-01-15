@@ -102,19 +102,19 @@ var deliveryInvoiceData = {
         <p data-tm="p-name"> ZOMATO PRIVATE LIMITED</p>
     </div>
     <div class="item item-1">
-        <p><span data-tm="field-name">PAN</span> : <span
+        <p><span data-tm="field-name">PAN : </span><span
                 data-tm="field-value">AADCD4946</span></p>
     </div>
     <div class="item item-2">
-        <p><span data-tm="field-name">CIN</span> : <span
+        <p><span data-tm="field-name">CIN : </span><span
                 data-tm="field-value">L930398141</span></p>
     </div>
     <div class="item item-3">
-        <p><span data-tm="field-name">GST</span> : <span
+        <p><span data-tm="field-name">GST : </span><span
                 data-tm="field-value">06AAD46L1</span></p>
     </div>
     <div class="item item-4">
-        <p><span data-tm="field-name">FSSAI</span> : <span
+        <p><span data-tm="field-name">FSSAI : </span><span
                 data-tm="field-value">1001908107</span></p>
     </div>
 </div>
@@ -287,15 +287,15 @@ var deliveryInvoiceData = {
                         <p data-tm="p-name"> Amazon.com, Inc</p>
                     </div>
                     <div class="item item-1">
-                        <p><span data-tm="field-name" class="fw-bold">PAN</span> : <span
+                        <p><span data-tm="field-name" class="fw-bold">PAN : </span><span
                                 data-tm="field-value">AADCD4946</span></p>
                     </div>
                     <div class="item item-2">
-                        <p><span data-tm="field-name" class="fw-bold">CIN</span> : <span
+                        <p><span data-tm="field-name" class="fw-bold">CIN : </span><span
                                 data-tm="field-value">L930398141</span></p>
                     </div>
                     <div class="item item-3">
-                        <p><span data-tm="field-name" class="fw-bold">GST</span> : <span
+                        <p><span data-tm="field-name" class="fw-bold">GST : </span><span
                                 data-tm="field-value">06AAD46L1</span></p>
                     </div>
 

@@ -78,7 +78,7 @@ globalData.appData = {
     <label for="sb-search" class="form-label">OUR SERVICES</label>
 </li>
 <li>
-    <a title="Rent Receipt" class="sidebar-links" href="/tools/rent-receipt">Rent Receipt</a>
+    <a title="Rent Receipt" class="sidebar-links" href="/tools/rent-receipt/index.html">Rent Receipt</a>
 </li>
 <li>
     <a title="Fuel Bills" class="sidebar-links" href="/fuel-bills">Fuel Bills</a>
