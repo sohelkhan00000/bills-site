@@ -81,7 +81,7 @@ globalData.appData = {
     <a title="Rent Receipt" class="sidebar-links" href="/tools/rent-receipt/index.html">Rent Receipt</a>
 </li>
 <li>
-    <a title="Fuel Bills" class="sidebar-links" href="/fuel-bills">Fuel Bills</a>
+    <a title="Fuel Bills" class="sidebar-links" href="/fuel-bills/index.html">Fuel Bills</a>
 </li>
 <li>
     <a title="Driver Salary Slip" class="sidebar-links" href="/tools/driver-salary">Driver

@@ -1,6 +1,6 @@
 var deliveryInvoiceData = {
     "logo-image":`  <div com-tm="logo"  class="col-12">
-    <img data-tm="logo" alt="Restaurant Logo"
+    <img data-tm="logo" alt="Delivery Invoice Logo"
         src="../../../../assets/images/delivery-invoice/zomato.png" />
 </div>`,
 "table":`    <table com-tm="tax">
@@ -131,7 +131,7 @@ var deliveryInvoiceData = {
         <div class="row">
             <div class="col-6">
                 <div com-tm="logo">
-                    <img data-tm="logo" alt="Restaurant Logo"
+                    <img data-tm="logo" alt="Delivery Invoice Logo"
                         src="../../../../assets/images/delivery-invoice/amazon-2.png" />
                 </div>
             </div>
