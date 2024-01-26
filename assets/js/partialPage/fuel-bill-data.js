@@ -132,7 +132,7 @@ var template ={
         <label for="u-vehicle-type" class="form-label">Vehicle Type</label>
         <select class="form-select" id="u-vehicle-type">
             <option>Petrol</option>
-            <option>Deisel</option>
+            <option>Diesel</option>
             <option>CNG</option>
             <option>Electric</option>
         </select>

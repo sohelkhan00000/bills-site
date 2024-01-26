@@ -3,6 +3,6 @@ disallow: /assets/*
 disallow: /assets/style/main-critical.css
 disallow: /assets/js/main-critical.js
 disallow: /assets/js/common-critical.js
-disallow: /runtime.f93517e549754826.js
+disallow: /runtime.88ddd6bb6cb0a1a0.js
 disallow: /polyfills.00a8d89515330503.js
-disallow: /main.0c95f2176cab51f2.js
+disallow: /main.5c3b9e398f46feef.js
