@@ -88,7 +88,7 @@ globalData.appData = {
         Salary Slip</a>
 </li>
 <li>
-    <a title="LTA Receipt" class="sidebar-links" href="/tools/lta/red-bus">LTA Receipt</a>
+    <a title="LTA Receipt" class="sidebar-links" href="/tools/lta-receipt/index.html">LTA Receipt</a>
 </li>
 </ul></div>`
 }
