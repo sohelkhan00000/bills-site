@@ -1,8 +1,2 @@
 user-agent: *
 disallow: /assets/*
-disallow: /assets/style/main-critical.css
-disallow: /assets/js/main-critical.js
-disallow: /assets/js/common-critical.js
-disallow: /runtime.d50a888ff461c0da.js
-disallow: /polyfills.00a8d89515330503.js
-disallow: /main.d0f0eb4a23865753.js

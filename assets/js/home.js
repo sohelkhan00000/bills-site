@@ -1,1 +1,1 @@
-var home=()=>{document.querySelector("#sb-search")&&document.querySelector("#sb-search").focus()};
+var home=()=>{document.querySelector("#sb-search")&&document.querySelector("#sb-search").focus()};(()=>{let e=setInterval(()=>{isSiteReady&&(clearInterval(e),home())},100)})();
